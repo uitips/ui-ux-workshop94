@@ -4,7 +4,7 @@ Presentation for ui-ux-workshop94
 UI/UX-workshop which was held Wednesday, February 3, 2016 in Tehran, Iran.
 
 ## License
-
+    The MIT License (MIT)
     (C) 2015 - UItips.ir <info@uitips.ir>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
