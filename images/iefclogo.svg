@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="300px" height="300px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 300 300"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ enable-background="new 0 0 560 560">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil5 {fill:black}
+    .fil0 {fill:#222222}
+    .fil3 {fill:#247F2C}
+    .fil4 {fill:#82C88A}
+    .fil1 {fill:#B3ACAC}
+    .fil2 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_87270068240">
+   <g>
+    <ellipse class="fil0" cx="119" cy="148" rx="106" ry="140"/>
+    <ellipse class="fil1" cx="131" cy="149" rx="74" ry="108"/>
+    <ellipse class="fil2" cx="122" cy="149" rx="64" ry="101"/>
+    <ellipse class="fil3" cx="222" cy="224" rx="46" ry="61"/>
+    <ellipse class="fil4" cx="227" cy="224" rx="32" ry="47"/>
+    <ellipse class="fil2" cx="223" cy="224" rx="28" ry="44"/>
+   </g>
+   <g id="Layer_2" display="none">
+    <g display="inline">
+     <ellipse class="fil5" cx="129" cy="148" rx="115" ry="142"/>
+     <ellipse class="fil1" cx="138" cy="147" rx="86" ry="110"/>
+     <ellipse class="fil2" transform="matrix(-0.019 0.999799 -0.999799 -0.019 130.809 146.67)" rx="107" ry="79"/>
+     <ellipse class="fil3" cx="233" cy="223" rx="53" ry="66"/>
+     <ellipse class="fil4" cx="237" cy="222" rx="40" ry="51"/>
+     <ellipse class="fil2" transform="matrix(-0.019 0.999799 -0.999799 -0.019 233.563 222.229)" rx="50" ry="37"/>
+    </g>
+   </g>
+   <g id="Layer_3" display="none">
+    <g display="inline">
+     <ellipse class="fil5" transform="matrix(0.0102 -0.999899 0.999899 0.0102 123.397 150.921)" rx="141" ry="106"/>
+     <ellipse class="fil1" transform="matrix(0.0101 -0.999899 0.999899 0.0101 134.514 152.904)" rx="114" ry="73"/>
+     <ellipse class="fil2" transform="matrix(0.0101 -0.999899 0.999899 0.0101 123.206 150.396)" rx="104" ry="62"/>
+     <ellipse class="fil3" transform="matrix(0.0101 -0.999899 0.999899 0.0101 224.327 223.658)" rx="65" ry="49"/>
+     <ellipse class="fil4" transform="matrix(0.0101 -0.999899 0.999899 0.0101 229.442 224.593)" rx="53" ry="34"/>
+     <ellipse class="fil2" transform="matrix(0.0101 -0.999899 0.999899 0.0101 224.189 223.436)" rx="48" ry="29"/>
+    </g>
+   </g>
+   <g id="Layer_4" display="none">
+    <g display="inline">
+     <ellipse class="fil5" transform="matrix(0.0101 -0.999899 0.999899 0.0101 125.076 150.448)" rx="143" ry="107"/>
+     <ellipse class="fil1" transform="matrix(0.0101 -0.999899 0.999899 0.0101 136.268 152.485)" rx="116" ry="74"/>
+     <ellipse class="fil2" transform="matrix(0.0101 -0.999899 0.999899 0.0101 124.826 149.935)" rx="105" ry="63"/>
+     <ellipse class="fil3" transform="matrix(0.0101 -0.999899 0.999899 0.0101 227.441 224.316)" rx="66" ry="50"/>
+     <ellipse class="fil4" transform="matrix(0.0102 -0.999899 0.999899 0.0102 232.565 225.277)" rx="54" ry="34"/>
+     <ellipse class="fil2" transform="matrix(0.0101 -0.999899 0.999899 0.0101 227.259 224.091)" rx="49" ry="29"/>
+    </g>
+   </g>
+   <g id="Layer_5" display="none">
+   </g>
+  </g>
+ </g>
+</svg>
