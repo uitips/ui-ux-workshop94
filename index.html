@@ -1,0 +1,664 @@
+<!--	
+(C) 2015 - UItips.ir <info@uitips.ir>
+    
+-->
+<!doctype html>
+<html lang="fa">
+    <head>
+        <meta charset="utf-8">
+        <title>ورکشاپ طراحی رابط کاربری و تجربه کاربری</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css" id="theme">
+        <link rel="stylesheet" href="css/app.css" >
+        <link rel="stylesheet" href="css/natural_language.css" >
+        <link rel="stylesheet" href="css/foundation.css" >
+        <link rel="stylesheet" href="css/hover.css" >
+        <link rel="stylesheet" href="css/btn.css" >
+        <link rel="stylesheet" href="css/font-awesome.css" >
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="reveal">
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <img src="images/iefclogo.svg"/>
+                    <p>کارگاه [تجربه/رابط] کاربری برای استارت‌آپ‌ها</p>
+                    <p>مرکز توانمندسازی و تسهیل‌گری کسب‌وکارهای نوپای فاو</p>
+                </section>
+                <section>
+                    <h3>ورکشاپ طراحی یک رابط کاربری  با تجربه کاربری خوب</h3>
+                    <img style="" src="images/UITips-Banner.png"/>
+                    <br><br>
+                    <h4>14 بهمن ماه 1394</h4>
+                </section>
+                <section>
+                    <h2>چه خواهیم گفت:</h2>
+                    <ul>
+                        <li>خلاصه ای از مفهوم زیبایی شناسی</li>
+                        <li>بررسی جایگاه وب سایت های ایرانی</li>
+                        <li>علت یابی ضعف وب سایت های ایرانی در سطح بین المللی</li>
+                        <li>نشانه هایی از یک وب سایت زیبا</li>
+                        <li>اشتباه پیروی از عادت کاربر با اسم تجربه کاربری</li>
+                        <li>تاثیر خلاقیت در تجربه کاربری مطلوب</li>
+                        <li>نقش طراح رابط کاربری در خلق تجربه کاربری مطلوب</li>
+                        <li>نقش UI/UX tips در کمک به حل این مشکلات</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>خلاصه ای از مفهوم زیبایی شناسی</h1>
+                </section>
+                <section>
+                    <h1>بررسی جایگاه وب سایت های ایرانی</h1>
+                </section>
+                <section>
+                    <img src="images/ranking.jpg" alt="" />
+                    <span style=" font-size: 13px; font-family: arial; text-transform: uppercase; display: block;">worlddesignrankings.com</span>
+                </section>
+                <section>
+                    <h1>بررسی چند وب سایت با کاربری یکسان در ایران و خارج از ایران</h1>
+                </section>
+                <section>
+                    <h2>نمونه فروشگاه های اینترنتی</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/shop-1.jpg" data-fancybox-group="gallery" title="بامیلو"><img src="images/shop-1.jpg" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/shop-2.jpg" data-fancybox-group="gallery" title="علی اکسپرس"><img src="images/shop-2.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>نمونه سایت های خبری</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/news-1.jpg" data-fancybox-group="gallery" title="خبرآنلاین"><img src="images/news-1.jpg" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/news-2.jpg" data-fancybox-group="gallery" title="CNN"><img src="images/news-2.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>Portfolio های شخصی</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/portfolio-1.jpg" data-fancybox-group="gallery" title="بهرام رادان"><img src="images/portfolio-1.jpg" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/portfolio-2.jpg" data-fancybox-group="gallery" title="دی کاپریو"><img src="images/portfolio-2.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>نمونه وب سایت های رسانه ای</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/Statup-1.jpg" data-fancybox-group="gallery" title="آپارات"><img src="images/Statup-1.jpg" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/Statup-2.jpg" data-fancybox-group="gallery" title="یوتیوب"><img src="images/Statup-2.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h1>به نظر شما علت این همه تفاوت کجاست؟!</h1>
+                </section>
+                <section>
+                    <h1>نشانه های وب سایت زیبا</h1>
+                </section>
+                <section>
+                    <h2>چینش صحیح عناصر در کنار هم</h2>
+                </section>
+                <section>
+                    <h2>رنگ بندی مناسب</h2>
+                    <div class="large-12 medium-12 small-12 columns">
+                        <a class="fancybox" href="images/color.jpg" data-fancybox-group="gallery" title="baskin"><img src="images/color.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>علائم و نمادها</h2>
+                    <div class="large-12 medium-12 small-12 columns">
+                        <a class="fancybox" href="images/ictstartup.jpg" data-fancybox-group="gallery" title="ictstartups"><img src="images/ictstartup.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>فضاسازی مناسب</h2>
+                    <div class="large-12 medium-12 small-12 columns">
+                        <a class="fancybox" href="images/tennis.jpg" data-fancybox-group="gallery" title="اسپورت آوران"><img src="images/tennis.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>تعامل با کاربر</h2>
+                    <div class="large-12 medium-12 small-12 columns">
+                        <a class="fancybox" href="images/youtube.jpg" data-fancybox-group="gallery" title="یوتیوب"><img src="images/youtube.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>موشن ها و انیمیشن ها</h2>
+                    <div class="large-12 medium-12 small-12 columns">
+                        <img src="images/Motions.gif" alt="" />
+                    </div>
+                </section>
+                <section>
+                    <h1>اشتباه پیروی از عادت کاربر با اسم تجربه کاربری</h1>
+                </section>
+                <section>
+                    <h2>تاثیر خلاقیت در تجربه کاربری مطلوب </h2>
+                    <ul>
+                        <li>خلاقیت چیست؟</li>
+                        <li>گستره خلاقیت تا کجاست؟</li>
+                        <li>در کشوری که زندگی میکنیم چقدر شاهد خلاقیت هستیم؟</li>
+                        <li>در حوزه فعالیت خود چقدر شاهد خلاقیت هستیم؟</li>
+                        <li>خود ما چقدر خلاقیت داریم؟</li>
+                        <li>چرا این خلاقیت در ایران کمتر از سایر کشورها به چشم میخورد و در ایران بیشتر شاهد کپی کاری هستیم؟</li>
+                        <li>به نظر شما خلاقیت چقدر با تجربه کاربری مغایرت دارد؟</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>نقش طراح رابط کاربری در خلق تجربه کاربری مطلوب</h1>
+                </section>
+                <section>
+                    <h2>مفهوم تجربه کاربری</h2>
+                    <ul>
+                        <li>با ایجاد تعاملات  مناسبی که شما بین مجصول تولیدی خود و کاربر ایجاد میکنین</li>
+                        <li>با رابط کاربری زیبایی که بر طبق اصول زیبایی شناسی میسازین</li>
+                        <li>باقرار دادن امکانات مناسب در جای مناسب برای افراد مناسب</li>
+                        <li>با ساخت قابلیت دسترسی و پیمایش آسان در صفحات و هدایت صحیح کاربر در رسیدن به خواسته اش</li>
+                        <li>با قرار دادن صحیح مطالب  در جایگاه مرتبط با خودشان</li>
+                        <li>و در نهایت با شناخت صحیح شما از کاربراتون</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>نقش UI/UX tips در کمک به حل این مشکلات</h1>
+                </section>
+                <!-- Example of nested vertical slides -->
+                <section>
+                    <h1>وقت استراحته :)</h1>
+                </section>
+                <section >
+                    <h1>رابط کاربری</h1>
+                    <p>رابط کاربری زیبا آسان و کاربر پسند داشته باشید</p>
+                </section>
+                <section>
+                    <h1>چه خواهیم گفت:
+                    </h1>
+                    <ul>
+                        <li>تلفیق تجربه کاربری با رابط کاربری</li>
+                        <li>نحوع استفاده درست از انیمیشن ها</li>
+                        <li>اولویت اول وب سایت وب است یا موبایل</li>
+                        <li>Call To Action های تعاملی</li>
+                        <li>درگیر کردن کاربر و نمایش خروجی آنی به کاربر</li>
+                        <li>نکاتی در استفاده بهتر از فرم ها</li>
+                        <li>پیشنهادی برای فروشگاه های اینترنتی</li>
+                        <li>اهمیت محتوا  و تایپوگرافی</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>تلفیق رابط کاربری و تجربه کاربری برای تعامل با کاربران</h1>
+                </section>
+                <section>
+                    <h2>مواردی که باید برای وب سایت استارتاپ خود رعایت کنید</h2>
+                    <ul>
+                        <li>استفاده درست از انیمیشن ها</li>
+                        <li>اولین صفحه نمایش امروز موبایل ها هستند.</li>
+                        <li>چیزهایی که باعث حواس پرتی کاربران می شود را حذف کنید همانند سایدبار</li>
+                        <li>حواستان به call to action ها و فرم ها باشد.</li>
+                        <li>سودی که شما به کاربران میرسانید مهم تر از ویزگی های استارتاپ شماست</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>القای حس آرامش به کاربران با انیمیشن ها</h2>
+                    <p>
+                        اعمال شدن تغییرات به یکباره و در مدت زمان سریع احساس خوشایندی را به کاربر منتقل نمی کند و می توان با استفاده از انیمیشن ها حس خوبی را به آنها داد. به عبارتی دیگر انیمیشن ها پاسخی در برابر تعاملاتی است  که کاربر در برابر المان های وب سایت شما دریافت میکند.
+                    </p>
+                </section>
+                <section>
+                    <h1>تفاوت استفاده از انیمیشن ها</h1>
+                    <div class="large-4 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <img src="images/ScrollingAnimated.gif"/>
+                    </div>
+                    <div class="large-4 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <img src="images/ScrollingNoAnimation.gif"/>
+                    </div>
+                </section>
+                <section>
+                    <h1>توجه به جزئیات</h1>
+                    <blockquote>طراحی آنچه به نظر می رسد و آنچه حس می شود نیست. طراحی نحوه کار کردن چیزها است</blockquote>
+                </section>
+                <section>
+                    <h2>موارد مهم در استفاده از انیمیشن</h2>
+                    <ul>
+                        <li>تعداد استفاده و مقدار سرعت آنها</li>
+                        <li>جهت استفاده از Transiton ها</li>
+                        <li>استفاده بجا و مرتبط با تعامل کاربر</li>
+                        <li>استفاده از نوع انیمیشن های استاندارد</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>سرعت انیمشن ها</h1>
+                    <div class="effects">
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <a href="#" class="hvr-sweep-to-right s1">بسیار سریع</a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="#" class="hvr-sweep-to-right s2">بسیار کند</a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="#" class="hvr-sweep-to-right s3">مناسب</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2>نمایش انیمیشن مناسب بر اساس تعامل کاربر</h2>
+                    <div class="row">
+                        <div class="large-4 columns text-center" style="margin: 0 auto; float: none;">
+                            <button class="progress-button" data-style="fill" data-horizontal>ارسال</button>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1>تعامل با کاربران  بصورت نمایش خروجی همزمان</h1>
+                </section>
+                <section>
+                    <h2>کاربر را درگیر ساختن کنید تا خودتان بسازید</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/bad-interaction.jpg" data-fancybox-group="gallery" title="عدد"><img src="images/bad-interaction.jpg" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/good-interaction.jpg" data-fancybox-group="gallery" title="کلیک یاب"><img src="images/good-interaction.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h1>تعامل با کاربران از طریق فرم ها</h1>
+                </section>
+                <section>
+                    <h2>شیوه های جدید از گرفتن اطلاعات کاربر</h2>
+                    <p>دریافت اطلاعات کاربر یا حتی فیلد های ثبت نام تقریبا در  تمام وب سایت ها مشابه یکیدیگر شده اند و هیچ مانوری نمی شود در طراحی آنها انجام داد اما راه های بهتر وجود دارد که کمتر سایت ایرانی از آنها استفاده می کند.
+                    </p>
+                </section>
+                <section>
+                    <h2>جذب مخاطب با زبان طبیعی</h2>
+                    <p>Natural Language User Interface</p>
+                    <p>زبان طبیعی را جایگزین زبان ساده و خشک در طراحی رابط کاربری خود کنید</p>
+                    <p>زبان طبیعی نوعی از  رابط کاربری است که کاربران میتوانند به صورت روزمره که با دیگران ارتباط برقرار میکنند با سیستم شما نیز همانگونه ارتباط برقرار کنند</p>
+                </section>
+                <section>
+                    <h2>مثالی کاربردی از زبان طبیعی</h2>
+                    <div class="main clearfix">
+                        <form id="nl-form" class="nl-form">
+                            سلام اسم من
+                            <input type="text" value="" placeholder="نام شما" data-subline="به طور مثال : حمید رجایی"/>
+                            است  و میخواهم لیست گزارشات
+                            <select>
+                                <option value="1" selected>فروش</option>
+                                <option value="2">خرید</option>
+                                <option value="3">تراکنشات بین الملی</option>
+                                <option value="4">تراکنشات داخلی </option>
+                            </select>
+                            شرکت شما را دریافت نمایم
+                            لطفا آن را به آدرس ایمیل
+                            <input type="text" value="" placeholder="ایمیل شما " data-subline="my@gmail.com"/>
+                            ارسال نمایید.
+                            <div class="nl-submit-wrap large-4 columns text-center" style="margin: 0 auto; float: none;">
+                                <button class="nl-submit progress-button"  data-style="fill" data-horizontal type="submit">ارسال درخواست</button>
+                            </div>
+                            <div class="nl-overlay"></div>
+                        </form>
+                    </div>
+                </section>
+                <section>
+                    <h2>A/B  &nbsp; &nbsp; testing برای زبان طبیعی</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/na1.jpg" data-fancybox-group="gallery" title="عدد"><img src="images/na1.jpg" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/na2.jpg" data-fancybox-group="gallery" title="کلیک یاب"><img src="images/na2.jpg" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>به حداقل رساندن فیلدها</h2>
+                    <p>
+                        فیلدهایی هستند که کاربر در آینده هم میتواند آنها را پر کند میشود در ابتدای کار تعداد آنها را به حداقل رساند تا کاربر در سریعترین زمان ممکن عملیات اصلی را انجام دهد.
+                    </p>
+                </section>
+                <section>
+                    <img src="images/war.png" width="256" height="256" />
+                    <br>
+                    <h2>جنگ بین طراحان و بازاریابان آنلاین</h2>
+                </section>
+                <section>
+                    <h2>مثال هایی از بهینه تر کردن فیلدها</h2>
+                    <div class="large-4 medium-4 small-4 columns">
+                        <a class="fancybox" href="images/bamilo.png" data-fancybox-group="gallery" title="بامیلو"><img src="images/bamilo.png" alt="" /></a>
+                        <a class="fancybox" href="images/sheypoor.png" data-fancybox-group="gallery" title="شیپور"><img src="images/sheypoor.png" alt="" /></a>
+                    </div>
+                    <div class="large-4 medium-4 small-4 columns">
+                        <a class="fancybox" href="images/gsm.png" data-fancybox-group="gallery" title="gsm"><img src="images/gsm.png" alt="" /></a>
+                        <a class="fancybox" href="images/ibartar.png" data-fancybox-group="gallery" title="gsm"><img src="images/ibartar.png" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>نکاتی در استفاده صحیح از فرم ها</h2>
+                    <ul >
+                        <li>بهتر است که اعتبار سنجی آنی داشته باشند. اعتبار سنجی لحظه ای، اطمینان ویژه ای به کاربر برای درست وارد کردن و روند پر کردن فیلد ها می دهد.</li>
+                        <li >تلاش کنید کدهای خود را کمی سخت تر بنویسید ولی کاربر خود را به کاری مجبور نکنید.</li>
+                        <li >استفاده نکرد از placeholder بخصوص برای فرم های زیاد</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>CallToAction های مناسب</h2>
+                    <a class="fancybox" href="images/interactivity-hit-areas.png" data-fancybox-group="gallery" title="دیجی کالا"><img width="500" height="318" src="images/interactivity-hit-areas.png" alt="" /></a>
+                    <p>
+                        حساس ترین بخش وب سایت استفاده از دکمه هایی است که کاربر میتواند یک عملیات را انجام دهد و یا وارد قسمت مهمی از وب سایت شما شود call to action ها هستند.
+                    </p>
+                </section>
+                <section>
+                    <h2>مثالی از call to action ها</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/digikala2.png" data-fancybox-group="gallery" title="دیجی کالا"><img src="images/mini-digi.png" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/serverpars.png" data-fancybox-group="gallery" title="سرور پارس"><img src="images/mini-server.png" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>نکاتی برای استفاده از CTA ها</h2>
+                    <ul>
+                        <li>جلب توجه بازدید کننده است</li>
+                        <li>فضای مناسب برای آنها در نظر بگیرید</li>
+                        <li>گاهی اوقعات تضاد رنگی می تواند گزینه مناسبی باشد</li>
+                        <li>transition ها را فراموش نکنید</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>مثالی از call to action ها</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/3gaam.png" data-fancybox-group="gallery" title="۳ گام"><img src="images/mini-3gam.png" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/mobinnet.png" data-fancybox-group="gallery" title="مبین نت"><img src="images/mini-mobin.png" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>پیشنهاداتی جذاب برای فروشگاه های اینترنتی و تجارت الکترونیک</h2>
+                </section>
+                <section>
+                    <h2>پیشنهاد دادن بر اساس سلیقه های کاربر</h2>
+                    <p>
+                        ایده های بهتر از محصولات مشابه وجود دارد که میتوانید در اختیار کاربر قرار دهید مثلا آیتم هایی که مخصوص کاربر فعلی است.
+                    </p>
+                </section>
+                <section>
+                    <div class="large-12 medium-12 small-12 columns">
+                        به جای نمایش پیشنهادات یکسان، گزینه خود را توصیه کنید
+                        <a class="fancybox" href="images/r1.png" data-fancybox-group="gallery" title=""><img src="images/r1.png" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>به مشتریان پیشنهاد محصول بدهید</h2>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="bad"><i class="fa fa-remove"></i></h2>
+                        <a class="fancybox" href="images/ghooshishop.png" data-fancybox-group="gallery" title="گوشی شاپ"><img src="images/ghooshishop.png" alt="" /></a>
+                    </div>
+                    <div class="large-6 medium-6 small-6 columns">
+                        <h2 class="good"><i class="fa fa-check"></i></h2>
+                        <a class="fancybox" href="images/digikala.png" data-fancybox-group="gallery" title="دیجی کالا"><img src="images/digikala.png" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>چگونه میشود پیشنهاد محصول را بهتر کرد؟</h2>
+                    <p>سایتی همانند دیجی کالا پیشنهاد خود را به کاربران میدهد اما یک پیشنهاد را به همه کاربران میدهد و برای هر کاربر خاص پیشنهاد خاص را نمایش می دهد که برای این هم راهکار وجود دارد و می شود علایقی کاربر را از آن گرفت و بر اساس آن علایق به آن محصول پیشنهاد کرد.</p>
+                </section>
+                <section>
+                    <h2>دریافت سلیقه کاربران</h2>
+                    <div class="large-12 columns">
+                        <a class="fancybox" href="images/skinform.png" data-fancybox-group="gallery" title="دریافت سلیقه های کاربر"><img src="images/skinform.png" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>به کاربران خود اطمینان خاطر بدهید</h2>
+                    <p>به مشتری  بگویید همه چیز خوب است و همه چیز به خوبی پیش خواهد رفت. نگران نباشید، شاد باشید</p>
+                    <ul>
+                        <li>"از خریدتان راضی خواهید بود"</li>
+                        <li>"پرداخت شما امن است"</li>
+                        <li>"هزینه ارسال رایگان است"</li>
+                        <li>"هرموقع بخواهید می توانید عملیات خرید را کنسل کنید"</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>برای نمایش قیمت ها راه حل های بهتری هم هست</h2>
+                    <ul>
+                        <li>برای یک کتاب می توان گفت برای هر برگ این کتاب فقط 30 ریال می پردازید، تا اینکه بگوییم قیمت این کتاب فقط 3000 تومان است</li>
+                        <li>عضویت درسایت ما روزی 166تومان برای شما هزینه دارد، تا بگوییم عضویت ماهانه 5000تومان است</li>
+                        <li>نمایش قیمت با با رقم های صفر کمتر</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>استفاده از کلید های کیبورد</h2>
+                    <p>قرار دادن میانبرهای  برای نمایش یک سری عملیات ها در وب سایت میتواند  برای کاربر خیلی جذاب باشه و این باعث جذب مخاطبین زیادی برای شما شود مثلا میانبری برای رفتن به مقاله بعدی یا نمایش سبد خرید یا نمایش فاکتور و از این گونه مثال ها
+                    </p>
+                </section>
+                <section>
+                    <h4>فشردن عدد P برای مشاهده ایده قبلی و N مشاهده ایده بعدی</h4>
+                    <div class="large-12 columns">
+                        <a class="fancybox" href="images/homeui.png" data-fancybox-group="gallery" title="دریافت سلیقه های کاربر"><img src="images/homeui.png" alt="" /></a>
+                    </div>
+                </section>
+                <section>
+                    <h2>لودینگ ها</h2>
+                    <div class="container">
+                        <input type="radio" class="radio" name="progress" value="five" id="five">
+                        <label for="five" class="label">%5</label>
+                        <input type="radio" class="radio" name="progress" value="twentyfive" id="twentyfive" checked>
+                        <label for="twentyfive" class="label">%25</label>
+                        <input type="radio" class="radio" name="progress" value="fifty" id="fifty">
+                        <label for="fifty" class="label">%50</label>
+                        <input type="radio" class="radio" name="progress" value="seventyfive" id="seventyfive">
+                        <label for="seventyfive" class="label">%75</label>
+                        <input type="radio" class="radio" name="progress" value="onehundred" id="onehundred">
+                        <label for="onehundred" class="label">%100</label>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>چرخنده بارگذاری سریع نه کند</li>
+                        <li>اگر progress bar استفاده میکنید از نقطه صفر شروع نشه بهتره به کاربران این حس را منتقل کنید که اتفاق افتادن موضوعی بسیار نزدیک است</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>فوکوس بر روی محتوا</h1>
+                    <div class="large-12 columns">
+                        <img src="images/CBH.gif" alt="" />
+                    </div>
+                </section>
+                <section>
+                    <h2>دقیقا اعلام کنید که برای چه مخاطبانی مفید هستید!	  	 	  		  </h2>
+                    <p>کاربر تمایل بیشتری نسبت به ارزش  محصول دارد تا ویژگی های آن</p>
+                    <img src="images/content-base.png"/>
+                </section>
+                <section>
+                    <h2>اولویت محتوا بر طراحی</h2>
+                    <blockquote>طراحی رابط کاربری فقط گرافیک نیست ، بلکه همیشه پشت آن فکرهایی نهفته است!</blockquote>
+                </section>
+                <section>
+                    <h2>قاعده محتوا طراحی و نایپوگرافی</h2>
+                    <ul >
+                        <li>بر اساس محتوا طراحی کنید</li>
+                        <li>به یاد داشته باشید که یکی از بزرگترین فروشگاه های اینترنتی امروزه با محتوا و نقد بررسی خوب محبوبیت زیادی پیدا کرد</li>
+                        <li>90 درصد طراحی تایپوگرافی ست و ما بقی آن صفحات خالی ست :)</li>
+                        <li>منوها و دیگر موارد را زمانی نشان دهید که نیاز است</li>
+                        <li >مشغول نگه داشتن کاربر تا زمانی که صفحه لود شود</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>UItips.ir</h1>
+                    <h2>طراحی یک رابط کاربری با تجربه کاربری خوب</h2>
+                    <p>
+                        مجموعه ای از نکاتی مهم پیرامون تجربه کاربری و رابط کاربری
+                        که ممکن است همه ما به آنها  بی توجّه باشیم.
+                    </p>
+                </section>
+                <section class="about">
+                    <h2>معرفی</h2>
+                    <div class="large-4 medium-6 small-6 columns">
+                        <a href="http://miladheydari.ir" class="summary summary-author h-card u-url">
+                        <img width="160" height="160" alt="milad heydari" src="images/milad.jpg" class="summary_image u-photo">
+                        <span class="summary_meta p-name">میلاد حیدری</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <p><i class="fa fa-linkedin-square"></i> MiladHeydari</p>
+                            <li>
+                            <li>
+                                <p><i class="fa fa-twitter-square"></i> MiladBRUCE</p>
+                            <li>
+                        </ul>
+                    </div>
+                    <div class="large-4 medium-6 small-6 columns">
+                        <a href="http://mehryars.com" class="summary summary-author h-card u-url">
+                        <img width="160" height="160" alt="mehryar sanandaji" src="images/mehryar.jpg" class="summary_image u-photo">
+                        <span class="summary_meta p-name">مهریار سنندجی</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <p><i class="fa fa-linkedin-square"></i>MehryarS</p>
+                            <li>
+                            <li>
+                                <p><i class="fa fa-twitter-square"></i>_MehryarS_</p>
+                            <li>
+                        </ul>
+                    </div>
+                </section>
+                <section>
+                    <h1>مرسی از وقت ارزشمندتون</h1>
+                </section>
+                <section>
+                    <h1>پایان</h1>
+                </section>
+            </div>
+        </div>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+        <script src="js/nlform.js"></script>
+        <script src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+        <!-- Add Button helper (this is optional) -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-buttons.css?v=1.0.5" />
+        <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <!-- Add Thumbnail helper (this is optional) -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css?v=1.0.7" />
+        <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        <!-- Add Media helper (this is optional) -->
+        <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.6"></script>
+        <script type="text/javascript" src="js/progressButton.js"></script>
+        <script type="text/javascript" src="js/classie.js"></script>
+        <script>
+            $('.fancybox').fancybox();
+            var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+            
+            [].slice.call( document.querySelectorAll( 'button.progress-button' ) ).forEach( function( bttn ) {
+            	new ProgressButton( bttn, {
+            		callback : function( instance ) {
+            			var progress = 0,
+            				interval = setInterval( function() {
+            					progress = Math.min( progress + Math.random() * 0.1, 1 );
+            					instance._setProgress( progress );
+            
+            					if( progress === 1 ) {
+            						instance._stop(1);
+            						clearInterval( interval );
+            					}
+            				}, 200 );
+            		}
+            	} );
+            } );
+            
+            
+            
+            
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+            	controls: true,
+            	progress: true,
+            	history: true,
+            	center: true,
+            	rtl:true,
+            
+            	transition: 'slide', // none/fade/slide/convex/concave/zoom
+            
+            	// Optional reveal.js plugins
+            	dependencies: [
+            		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            		{ src: 'plugin/zoom-js/zoom.js', async: true },
+            		{ src: 'plugin/notes/notes.js', async: true }
+            	]
+            });
+            
+            
+            var defaultSettings = 'fa';
+            (function( $ ){
+            
+            $.fn.persiaNumber = function(settings) {
+            if(typeof(settings) == 'string' && settings.length > 0)
+             defaultSettings = settings;
+            var range = 1728;
+            window.persiaNumberedDOM = this;
+            convert(this, range);
+            $(document).ajaxComplete(function(){
+             var thisObj = window.persiaNumberedDOM;
+             convert(thisObj, range);
+            });
+            function convert(obj, range){
+             obj.find("*").andSelf().contents().each(function() {
+                if (this.nodeType === 3 && this.parentNode.localName != "style" && this.parentNode.localName != "script") {
+            	    this.nodeValue = this.nodeValue.replace(this.nodeValue.match(/[0-9]*\.[0-9]+/), function(txt){
+            		    return txt.replace(/\./,',');
+            		});		    	
+                    this.nodeValue = this.nodeValue.replace(/\d/g, function(v) {
+                        return String.fromCharCode(v.charCodeAt(0) + range);
+                    });
+                }
+            });		
+            }  
+            };
+            })( jQuery );
+            jQuery('*').persiaNumber();
+            
+        </script>
+    </body>
+</html>
+
