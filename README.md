@@ -4,9 +4,7 @@ Presentation for ui-ux-workshop94
 UI/UX-workshop which was held Wednesday, February 3, 2016 in Tehran, Iran.
 
 ## Providers
-===
 * Mehryar Sanandaji [@_Mehryars_](http://twitter.com/_mehryars_)
-
 * Milad Heydari [@miladbruce](http://twitter.com/miladbruce)
 
 ## License
