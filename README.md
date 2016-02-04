@@ -7,7 +7,7 @@ UI/UX-workshop which was held Wednesday, February 3, 2016 in Tehran, Iran.
 ===
 * Mehryar Sanandaji [@_Mehryars_](http://twitter.com/_mehryars_)
 
-* Milad Heydari [@miladbruce](http://twitter.com/miladbruce_)
+* Milad Heydari [@miladbruce](http://twitter.com/miladbruce)
 
 ## License
     The MIT License (MIT)
